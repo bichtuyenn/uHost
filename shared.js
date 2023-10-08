@@ -59,9 +59,9 @@ ctaButton.addEventListener('animationstart', function (event) {
 })
 
 ctaButton.addEventListener('animationend', function (event) {
-    console.log('Animation ended', event);
+    console.log('Animation ended', event)
 })
 
 ctaButton.addEventListener('animationiteration', function (event) {
-    console.log('Animation iteration', event);
+    console.log('Animation iteration', event)
 })
