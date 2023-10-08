@@ -276,10 +276,10 @@ main {
     }
 
     50% {
-        transform: rotateZ(-10deg)
+        transform: rotateZ(-10deg);
     }
 
     100% {
-        transform: rotateZ(10deg)
+        transform: rotateZ(10deg);
     }
 }
