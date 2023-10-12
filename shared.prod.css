@@ -119,3 +119,15 @@ main {
     display: flex;
   }
   
+.main-nav__item {
+    margin: 0 1rem;
+  }
+  
+  .main-nav__item a,
+  .mobile-nav__item a {
+    text-decoration: none;
+    color: var(--dark-green);
+    font-weight: bold;
+    padding: 0.2rem 0;
+  }
+  
