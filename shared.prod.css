@@ -170,3 +170,12 @@ main {
     display: flex;
   }
 }
+.main-footer {
+  background: black;
+  padding: 2rem;
+  margin-top: 3rem;
+  /* grid-row: 3 / 4; */
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: footer;
+}
