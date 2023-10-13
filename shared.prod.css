@@ -131,3 +131,30 @@ main {
     padding: 0.2rem 0;
   }
   
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: white;
+  border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta {
+  -webkit-animation: wiggle 400ms 3s 8 ease-out none;
+          animation: wiggle 400ms 3s 8 ease-out none;
+}
+
+.main-nav__item--cta a,
+.mobile-nav__item--cta a {
+  color: white;
+  background: var(--highlight-color);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active,
+.mobile-nav__item--cta a:hover,
+.mobile-nav__item--cta a:active {
+  color: var(--highlight-color);
+  background: white;
+  border: none;
+}
