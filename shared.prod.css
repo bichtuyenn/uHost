@@ -194,3 +194,11 @@ main {
       -ms-flex-align: center;
           align-items: center;
 }
+.main-footer__link {
+  margin: 0.5rem 0;
+}
+
+.main-footer__link a {
+  color: white;
+  text-decoration: none;
+}
