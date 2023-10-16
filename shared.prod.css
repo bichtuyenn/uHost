@@ -243,3 +243,6 @@ main {
       -ms-flex-align: center;
           align-items: center;
 }
+.mobile-nav__item {
+  margin: 1rem 0;
+}
