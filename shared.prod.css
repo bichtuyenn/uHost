@@ -246,3 +246,6 @@ main {
 .mobile-nav__item {
   margin: 1rem 0;
 }
+.mobile-nav__item a {
+  font-size: 1.5rem;
+}
