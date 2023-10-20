@@ -280,3 +280,7 @@ main {
       -ms-transform: translateY(0) !important;
           transform: translateY(0) !important;
 }
+@media (min-width: 40rem) {
+  .main-footer__link {
+    margin: 0 1rem;
+  }
